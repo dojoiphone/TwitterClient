@@ -1,0 +1,767 @@
+TGTMUnitTests
+v7
+r0
+t298813102.876733
+cCheck dependencies
+cProcessInfoPlistFile /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/Info.plist GTMUnitTests-Info.plist
+cProcessPCH /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cCpResource build/Debug-iphonesimulator/GTMUnitTests.app/UIKit.h.gch /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch
+cCompileC build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewControllerTests.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewController.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/XmlTwitterRepository.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests normal i386
+cGenerateDSYMFile /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app.dSYM /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests
+cPhaseScriptExecution "Run unit tests" /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh
+cTouch /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004BA4C8C700000000000000EE
+t1269090503
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/AvailabilityMacros.h
+c000000004B2B4EE20000000000006724
+t1261129442
+s26404
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/TargetConditionals.h
+c000000004B2B4EE200000000000031E9
+t1261129442
+s12777
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/libkern/OSAtomic.h
+c000000004748A13100000000000024B9
+t1195942193
+s9401
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/Object.h
+c000000004748F47C0000000000000E8B
+t1195963516
+s3723
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/Protocol.h
+c000000004748F47C00000000000007E7
+t1195963516
+s2023
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/objc-api.h
+c000000004748F47C0000000000000781
+t1195963516
+s1921
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/objc-auto.h
+c000000004748F47C0000000000001139
+t1195963516
+s4409
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/objc-runtime.h
+c000000004748F47C0000000000000032
+t1195963516
+s50
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/objc/runtime.h
+c000000004748F47C0000000000004FE4
+t1195963516
+s20452
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/stdio.h
+c000000004748A1330000000000003D1D
+t1195942195
+s15645
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/unistd.h
+c000000004748A13300000000000053FF
+t1195942195
+s21503
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004748AF9500000000000010DD
+t1195945877
+s4317
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/Foundation/GTMGarbageCollection.h
+c000000004C16065A0000000000000AFF
+t1276511834
+s2815
+i<Foundation/Foundation.h>
+i"GTMDefines.h"
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/Foundation/GTMObjC2Runtime.h
+c000000004C16065A0000000000001361
+t1276511834
+s4961
+i<objc/objc-api.h>
+i<objc/objc-auto.h>
+i"GTMDefines.h"
+i<objc/runtime.h>
+i<objc/objc-runtime.h>
+i<objc/Object.h>
+i<libkern/OSAtomic.h>
+i"objc/Protocol.h"
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/GTMDefines.h
+c000000004C16065B0000000000002C68
+t1276511835
+s11368
+i<AvailabilityMacros.h>
+i<TargetConditionals.h>
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.h
+c000000004C16065B0000000000000581
+t1276511835
+s1409
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.h
+c000000004C16065B000000000000CA4D
+t1276511835
+s51789
+i"GTMDefines.h"
+i<SenTestingKit/SenTestingKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/UnitTesting/GTMUnitTestDevLog.h
+c000000004C16065B0000000000000D16
+t1276511835
+s3350
+i"GTMDefines.h"
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m
+c000000004C16065B00000000000019B1
+t1276511835
+s6577
+i"GTMIPhoneUnitTestDelegate.h"
+i"GTMDefines.h"
+i<objc/runtime.h>
+i<stdio.h>
+i<UIKit/UIKit.h>
+i"GTMSenTestCase.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m
+c000000004C16065B000000000000046A
+t1276511835
+s1130
+i"GTMDefines.h"
+i<UIKit/UIKit.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m
+c000000004C16065B000000000000395C
+t1276511835
+s14684
+i"GTMSenTestCase.h"
+i<unistd.h>
+i"GTMObjC2Runtime.h"
+i"GTMUnitTestDevLog.h"
+i"GTMGarbageCollection.h"
+i<stdarg.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMUnitTestDevLog.h
+c000000004C16065B0000000000000D16
+t1276511835
+s3350
+i"GTMDefines.h"
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TweeterRepository.h
+c000000004C1F49F900000000000000F8
+t1277118969
+s248
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TweeterRepository.m
+c000000004C160EBE00000000000000E1
+t1276513982
+s225
+i"TweeterRepository.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.h
+c000000004C1F4BE3000000000000023C
+t1277119459
+s572
+i<UIKit/UIKit.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m
+c000000004C1F4BC20000000000000885
+t1277119426
+s2181
+i"TwitterClientViewController.h"
+i"TwitterRepository.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterRepository.h
+c000000004C1F4A0A00000000000000F8
+t1277118986
+s248
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.h
+c000000004C1F4E320000000000000126
+t1277120050
+s294
+i<Foundation/Foundation.h>
+i"TwitterRepository.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m
+c000000004C1F4EDF0000000000000112
+t1277120223
+s274
+i"XmlTwitterRepository.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/GTMSenTestCase.m
+c000000004C16065B000000000000395C
+t1276511835
+s14684
+i"GTMSenTestCase.h"
+i<unistd.h>
+i"GTMObjC2Runtime.h"
+i"GTMUnitTestDevLog.h"
+i"GTMGarbageCollection.h"
+i<stdarg.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/NSNotificationCenter+OCMAdditions.h
+c000000004ADBE8BA000000000000021E
+t1255925946
+s542
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/OCMArg.h
+c000000004ADBE8BA00000000000002FE
+t1255925946
+s766
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/OCMConstraint.h
+c000000004ADBE8BA00000000000004E9
+t1255925946
+s1257
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/OCMock.h
+c000000004ADBE8BA00000000000001E7
+t1255925946
+s487
+i<OCMock/OCMockObject.h>
+i<OCMock/OCMockRecorder.h>
+i<OCMock/OCMConstraint.h>
+i<OCMock/OCMArg.h>
+i<OCMock/NSNotificationCenter+OCMAdditions.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/OCMockObject.h
+c000000004ADBE8BA000000000000040F
+t1255925946
+s1039
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/Headers/OCMockRecorder.h
+c000000004ADBE8BA000000000000036A
+t1255925946
+s874
+i<Foundation/Foundation.h>
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/OCMock.framework/OCMock
+c000000004ADBE8BA00000000000473D4
+t1255925946
+s291796
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m
+c000000004C1F4A2A000000000000080D
+t1277119018
+s2061
+i"GTMSenTestCase.h"
+i<UIKit/UIKit.h>
+i<OCMock/OCMock.h>
+i"TwitterClientViewController.h"
+i"TwitterRepository.h"
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests
+c000000004C1F4C8500000000000002F6
+t1277119621
+s758
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m
+c000000004C1F4F2E00000000000002D0
+t1277120302
+s720
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app
+t1277120302
+s238
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app.dSYM
+t1277120223
+s102
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests
+t1277120223
+s47348
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/Info.plist
+t1277120172
+s483
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/PkgInfo
+t1277120172
+s8
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/UIKit.h.gch
+t1277120173
+s13034928
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests
+t2
+s0
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests.o
+t1277120302
+s10364
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o
+t1277120173
+s23196
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o
+t1277120173
+s6328
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o
+t1277120173
+s39200
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMUnitTests.LinkFileList
+c000000004C1F4EAC00000000000003FD
+t1277120172
+s1021
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TweeterRepository.o
+t2
+s0
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewController.o
+t1277120173
+s37852
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewControllerTests.o
+t1277120173
+s42972
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/XmlTwitterRepository.o
+t1277120223
+s6056
+
+N/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh
+c000000004C1F4EAC000000000000006F
+t1277120172
+s111
+
+N/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch
+t1277120172
+s13034928
+
+N/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-fagokaiozynnedgnxcnviboyauhi/UIKit.h.gch
+t1276512236
+s13034928
+
+N/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-gvkeexrmhyuevbbcdiapsveivqqz/UIKit.h.gch
+t1276512108
+s13034928
+
+NGTMUnitTests-Info.plist
+c000000004C16073C00000000000002B1
+t1276512060
+s689
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298813102#298813102#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298813102.527926
+e298813102.671161
+r1
+xCompileC
+xbuild/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m298813102#298813102#0(0"0(0#0#84"/Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m4300885448#2590"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/XmlTwitterRepositoryTests.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812973.201139
+e298812973.283666
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@149"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m298812973#298812973#0(0"0(0#0#141"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m4300885448#2689"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestDelegate.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812973.202615
+e298812973.256210
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@145"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m298812973#298812973#0(0"0(0#0#137"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m4300885448#2681"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMIPhoneUnitTestMain.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812973.283788
+e298812973.413095
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@138"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m298812973#298812973#0(0"0(0#0#130"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m4300885448#2667"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMSenTestCase.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/GTMSenTestCase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TweeterRepository.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TweeterRepository.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewController.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812973.357837
+e298812973.457152
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewController.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m298812973#298812973#0(0"0(0#0#94"/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m4300885448#2644"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/TwitterClientViewController.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewController.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewControllerTests.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812973.256315
+e298812973.357731
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewControllerTests.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m298812973#298812973#0(0"0(0#0#91"/Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m4300885448#2646"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClientViewControllerTests.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/TwitterClientViewControllerTests.o0#
+
+CCompileC build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/XmlTwitterRepository.o /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298813023.701135
+e298813023.744781
+r1
+xCompileC
+xbuild/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/XmlTwitterRepository.o
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m298813023#298813023#0(0"0(0#0#87"/Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m4300885448#2630"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -include /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/Classes/XmlTwitterRepository.m -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/XmlTwitterRepository.o0#
+
+CCpResource build/Debug-iphonesimulator/GTMUnitTests.app/UIKit.h.gch /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch
+s298812973.015392
+e298812973.200985
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/GTMUnitTests.app/UIKit.h.gch
+x/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch
+lSLF07#2@149"Copy /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch298812973#298812973#0(0"0(0#0#144"/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch4300885448#652"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app0#
+
+CCpResource build/Debug-iphonesimulator/GTMUnitTests.app/XmlTwitterRepositoryTests XmlTwitterRepositoryTests
+r0
+
+CGenerateDSYMFile /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app.dSYM /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests
+s298813023.767979
+e298813023.788197
+r1
+xGenerateDSYMFile
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app.dSYM
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/GTMUnitTests.app.dSYM build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests298813023#298813023#0(0"0(0#0#114"/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests4300885448#514"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app.dSYM0#
+
+CLd /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests normal i386
+s298813023.744875
+e298813023.767880
+r1
+xLd
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests
+xnormal
+xi386
+lSLF07#2@119"Link /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests298813023#298813023#0(0"0(0#0#0"4300885448#1095"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -filelist /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMUnitTests.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework OCMock -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/GTMUnitTests0#
+
+CPhaseScriptExecution "Run Script" /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh
+r0
+
+CPhaseScriptExecution "Run unit tests" /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh
+s298813102.671903
+e298813102.872923
+r1
+xPhaseScriptExecution
+xRun unit tests
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh
+o
+o#  Controlling environment variables:
+o# GTM_DISABLE_ZOMBIES - 
+o#   Set to a non-zero value to turn on zombie checks. You will probably
+o#   want to turn this off if you enable leaks.
+oGTM_DISABLE_ZOMBIES=${GTM_DISABLE_ZOMBIES:=1}
+o
+o# GTM_ENABLE_LEAKS -
+o#   Set to a non-zero value to turn on the leaks check. You will probably want
+o#   to disable zombies, otherwise you will get a lot of false positives.
+o
+o# GTM_DISABLE_TERMINATION
+o#   Set to a non-zero value so that the app doesn't terminate when it's finished
+o#   running tests. This is useful when using it with external tools such
+o#   as Instruments.
+o
+o# GTM_LEAKS_SYMBOLS_TO_IGNORE
+o#   List of comma separated symbols that leaks should ignore. Mainly to control 
+o#   leaks in frameworks you don't have control over. 
+o#   Search this file for GTM_LEAKS_SYMBOLS_TO_IGNORE to see examples. 
+o#   Please feel free to add other symbols as you find them but make sure to 
+o#   reference Radars or other bug systems so we can track them.
+o
+o# GTM_REMOVE_GCOV_DATA
+o#   Before starting the test, remove any *.gcda files for the current run so
+o#   you won't get errors when the source file has changed and the data can't
+o#   be merged.
+o#
+oGTM_REMOVE_GCOV_DATA=${GTM_REMOVE_GCOV_DATA:=0}
+o
+oScriptDir=$(dirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")")
+odirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")"
+oecho $0 | sed -e "s,^\([^/]\),$(pwd)/\1,"
+opwd
+oScriptName=$(basename "$0")
+obasename "$0"
+oThisScript="${ScriptDir}/${ScriptName}"
+o
+oGTMXcodeNote() {
+o    echo ${ThisScript}:${1}: note: GTM ${2}
+o}
+o
+oif [ "$PLATFORM_NAME" == "iphonesimulator" ]; then
+o  # We kill the iPhone simulator because otherwise we run into issues where
+o  # the unittests fail becuase the simulator is currently running, and 
+o  # at this time the iPhone SDK won't allow two simulators running at the same
+o  # time.
+o  set +e
+o  /usr/bin/killall "iPhone Simulator"
+o  set -e
+o  
+o  if [ $GTM_REMOVE_GCOV_DATA -ne 0 ]; then
+o    if [ "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" != "-" ]; then
+o      if [ -d "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" ]; then
+o        GTMXcodeNote ${LINENO} "Removing any .gcda files"
+o        (cd "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" && \
+o            find . -type f -name "*.gcda" -print0 | xargs -0 rm -f )
+o      fi
+o    fi
+o  fi
+o
+o  export DYLD_ROOT_PATH="$SDKROOT"
+o  export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"
+o  export IPHONE_SIMULATOR_ROOT="$SDKROOT"
+o  export CFFIXED_USER_HOME="$TEMP_FILES_DIR/iPhone Simulator User Dir"
+o  
+o  # See http://developer.apple.com/technotes/tn2004/tn2124.html for an 
+o  # explanation of these environment variables.
+o  
+o  export MallocScribble=YES
+o  export MallocPreScribble=YES
+o  export MallocGuardEdges=YES
+o  export MallocStackLogging=YES
+o  export NSAutoreleaseFreedObjectCheckEnabled=YES
+o
+o  # Turn on the mostly undocumented OBJC_DEBUG stuff.
+o  export OBJC_DEBUG_FRAGILE_SUPERCLASSES=YES
+o  export OBJC_DEBUG_UNLOAD=YES
+o  # Turned off due to the amount of false positives from NS classes.
+o  # export OBJC_DEBUG_FINALIZERS=YES  
+o  export OBJC_DEBUG_NIL_SYNC=YES
+o  export OBJC_PRINT_REPLACED_METHODS=YES
+o
+o  if [ $GTM_DISABLE_ZOMBIES -eq 0 ]; then
+o    GTMXcodeNote ${LINENO} "Enabling zombies"
+o    export CFZombieLevel=3
+o    export NSZombieEnabled=YES
+o  fi
+o
+o  # Cleanup user home directory
+o  if [ -d "$CFFIXED_USER_HOME" ]; then
+o    rm -rf "$CFFIXED_USER_HOME"
+o  fi
+o  mkdir "$CFFIXED_USER_HOME"
+o  mkdir "$CFFIXED_USER_HOME/Documents"
+o  mkdir -p "$CFFIXED_USER_HOME/Library/Caches"
+o
+o  # 6251475 iPhone simulator leaks @ CFHTTPCookieStore shutdown if 
+o  #         CFFIXED_USER_HOME empty
+o  GTM_LEAKS_SYMBOLS_TO_IGNORE="CFHTTPCookieStore"
+o  
+o  "$TARGET_BUILD_DIR/$EXECUTABLE_PATH" -RegisterForSystemEvents
+oelse
+o  GTMXcodeNote ${LINENO} "Skipping running of unittests for device build."
+ofi
+oNo matching processes belonging to you were found
+orm(2298) malloc: protecting edges
+orm(2298) malloc: recording malloc stacks to disk using standard recorder
+orm(2298) malloc: enabling scribbling to detect mods to free blocks
+orm(2298) malloc: stack logs being written into /tmp/stack-logs.2298.rm.GzCF2U.index
+orm(2298) malloc: stack logs deleted from /tmp/stack-logs.2298.rm.GzCF2U.index
+omkdir(2299) malloc: protecting edges
+omkdir(2299) malloc: recording malloc stacks to disk using standard recorder
+omkdir(2299) malloc: enabling scribbling to detect mods to free blocks
+omkdir(2299) malloc: stack logs being written into /tmp/stack-logs.2299.mkdir.dX2Bbs.index
+omkdir(2299) malloc: stack logs deleted from /tmp/stack-logs.2299.mkdir.dX2Bbs.index
+omkdir(2300) malloc: protecting edges
+omkdir(2300) malloc: recording malloc stacks to disk using standard recorder
+omkdir(2300) malloc: enabling scribbling to detect mods to free blocks
+omkdir(2300) malloc: stack logs being written into /tmp/stack-logs.2300.mkdir.clhQL8.index
+omkdir(2300) malloc: stack logs deleted from /tmp/stack-logs.2300.mkdir.clhQL8.index
+omkdir(2301) malloc: protecting edges
+omkdir(2301) malloc: recording malloc stacks to disk using standard recorder
+omkdir(2301) malloc: enabling scribbling to detect mods to free blocks
+omkdir(2301) malloc: stack logs being written into /tmp/stack-logs.2301.mkdir.na21tz.index
+omkdir(2301) malloc: stack logs deleted from /tmp/stack-logs.2301.mkdir.na21tz.index
+oGTMUnitTests(2302) malloc: protecting edges
+oGTMUnitTests(2302) malloc: recording malloc stacks to disk using standard recorder
+oGTMUnitTests(2302) malloc: enabling scribbling to detect mods to free blocks
+oGTMUnitTests(2302) malloc: stack logs being written into /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.index
+oobjc[2302]: REPLACED: -[NSSet initWithCoder:]  by category NSSet  (IMP was 0x19eb950 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x21e50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSSet encodeWithCoder:]  by category NSSet  (IMP was 0x19eb960 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8a0c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSArray isNSArray__]  by category NSKindOfAdditions  (IMP was 0x19e6070 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x125c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDictionary isNSDictionary__]  by category NSKindOfAdditions  (IMP was 0x19e8270 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x31ad0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSSet isNSSet__]  by category NSKindOfAdditions  (IMP was 0x19eb940 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8eaf0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDate isNSDate__]  by category NSKindOfAdditions  (IMP was 0x19e7d80 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x66880 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSObject dealloc]  by category NSObject  (IMP was 0x198b800 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x168a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSObject autorelease]  by category NSObject  (IMP was 0x19eb100 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x10e40 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: +[NSObject initialize]  by category NSObject  (IMP was 0x1980550 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xea30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSNull initWithCoder:]  by category NSNull  (IMP was 0x19eb090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda930 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSNull encodeWithCoder:]  by category NSNull  (IMP was 0x19eb0a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda920 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSException initWithCoder:]  by category NSException  (IMP was 0x19e9d20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbcbb0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSException encodeWithCoder:]  by category NSException  (IMP was 0x19e9d30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbccc0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDictionary initWithCoder:]  by category NSDictionary  (IMP was 0x19e8280 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x3e2f0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDictionary encodeWithCoder:]  by category NSDictionary  (IMP was 0x19e8290 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4e500 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDate initWithCoder:]  by category NSDate  (IMP was 0x19e7d90 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x68d60 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSDate encodeWithCoder:]  by category NSDate  (IMP was 0x19e7da0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x67340 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSArray initWithCoder:]  by category NSArray  (IMP was 0x19e6080 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x229d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[NSArray encodeWithCoder:]  by category NSArray  (IMP was 0x19e6090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4f5b0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))
+oobjc[2302]: REPLACED: -[WebFrame convertNSRangeToDOMRange:]  by category WebPrivate  (IMP was 0x2f34b50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f34990 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))
+oobjc[2302]: REPLACED: -[WebFrame convertDOMRangeToNSRange:]  by category WebPrivate  (IMP was 0x2f34b20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f349d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))
+oobjc[2302]: REPLACED: -[UIWebDocumentView selectAll]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f1335 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e87a1 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))
+oobjc[2302]: REPLACED: -[UIWebDocumentView selectionState]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3efa96 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8c66 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))
+oobjc[2302]: REPLACED: -[UIWebDocumentView hasSelection]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f15a2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8ddd (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))
+oobjc[2302]: REPLACED: -[UIToolbar setBounds:]  by category UIButtonBarPrivate  (IMP was 0x36fc4a (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x36fac2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))
+oobjc[2302]: REPLACED: -[NSString drawInRect:withFont:]  by category UIStringDrawing  (IMP was 0x44caf4 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x2acbae (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))
+o2010-06-21 13:38:22.797 GTMUnitTests[2302:903] Failed to load NSMainNibFile MainWindow.
+oTest Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' started at 2010-06-21 13:38:22 +0200
+oTest Suite 'TwitterClientViewControllerTests' started at 2010-06-21 13:38:22 +0200
+oTest Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' started.
+oTest Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' passed (0.011 seconds).
+oTest Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' started.
+oTest Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' passed (0.000 seconds).
+oTest Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' started.
+oTest Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' passed (0.000 seconds).
+oTest Suite 'TwitterClientViewControllerTests' finished at 2010-06-21 13:38:22 +0200.
+oExecuted 3 tests, with 0 failures (0 unexpected) in 0.013 (0.013) seconds
+o
+oTest Suite 'SenTestCase' started at 2010-06-21 13:38:22 +0200
+oTest Suite 'SenTestCase' finished at 2010-06-21 13:38:22 +0200.
+oExecuted 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+o
+oTest Suite 'GTMTestCase' started at 2010-06-21 13:38:22 +0200
+oTest Suite 'GTMTestCase' finished at 2010-06-21 13:38:22 +0200.
+oExecuted 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+o
+oTest Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' finished at 2010-06-21 13:38:22 +0200.
+oExecuted 3 tests, with 0 failures (0 unexpected) in 0.032 (0.032) seconds
+o
+oGTMUnitTests(2302,0xa022c4e0) malloc: stack logs deleted from /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.index
+oexit 0
+lSLF07#2@40"Run custom shell script 'Run unit tests'298813102#298813102#0(17858"#  Controlling environment variables:# GTM_DISABLE_ZOMBIES - #   Set to a non-zero value to turn on zombie checks. You will probably#   want to turn this off if you enable leaks.GTM_DISABLE_ZOMBIES=${GTM_DISABLE_ZOMBIES:=1}# GTM_ENABLE_LEAKS -#   Set to a non-zero value to turn on the leaks check. You will probably want#   to disable zombies, otherwise you will get a lot of false positives.# GTM_DISABLE_TERMINATION#   Set to a non-zero value so that the app doesn't terminate when it's finished#   running tests. This is useful when using it with external tools such#   as Instruments.# GTM_LEAKS_SYMBOLS_TO_IGNORE#   List of comma separated symbols that leaks should ignore. Mainly to control #   leaks in frameworks you don't have control over. #   Search this file for GTM_LEAKS_SYMBOLS_TO_IGNORE to see examples. #   Please feel free to add other symbols as you find them but make sure to #   reference Radars or other bug systems so we can track them.# GTM_REMOVE_GCOV_DATA#   Before starting the test, remove any *.gcda files for the current run so#   you won't get errors when the source file has changed and the data can't#   be merged.#GTM_REMOVE_GCOV_DATA=${GTM_REMOVE_GCOV_DATA:=0}ScriptDir=$(dirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")")dirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")"echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,"pwdScriptName=$(basename "$0")basename "$0"ThisScript="${ScriptDir}/${ScriptName}"GTMXcodeNote() {    echo ${ThisScript}:${1}: note: GTM ${2}}if [ "$PLATFORM_NAME" == "iphonesimulator" ]; then  # We kill the iPhone simulator because otherwise we run into issues where  # the unittests fail becuase the simulator is currently running, and   # at this time the iPhone SDK won't allow two simulators running at the same  # time.  set +e  /usr/bin/killall "iPhone Simulator"  set -e    if [ $GTM_REMOVE_GCOV_DATA -ne 0 ]; then    if [ "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" != "-" ]; then      if [ -d "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" ]; then        GTMXcodeNote ${LINENO} "Removing any .gcda files"        (cd "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" && \            find . -type f -name "*.gcda" -print0 | xargs -0 rm -f )      fi    fi  fi  export DYLD_ROOT_PATH="$SDKROOT"  export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"  export IPHONE_SIMULATOR_ROOT="$SDKROOT"  export CFFIXED_USER_HOME="$TEMP_FILES_DIR/iPhone Simulator User Dir"    # See http://developer.apple.com/technotes/tn2004/tn2124.html for an   # explanation of these environment variables.    export MallocScribble=YES  export MallocPreScribble=YES  export MallocGuardEdges=YES  export MallocStackLogging=YES  export NSAutoreleaseFreedObjectCheckEnabled=YES  # Turn on the mostly undocumented OBJC_DEBUG stuff.  export OBJC_DEBUG_FRAGILE_SUPERCLASSES=YES  export OBJC_DEBUG_UNLOAD=YES  # Turned off due to the amount of false positives from NS classes.  # export OBJC_DEBUG_FINALIZERS=YES    export OBJC_DEBUG_NIL_SYNC=YES  export OBJC_PRINT_REPLACED_METHODS=YES  if [ $GTM_DISABLE_ZOMBIES -eq 0 ]; then    GTMXcodeNote ${LINENO} "Enabling zombies"    export CFZombieLevel=3    export NSZombieEnabled=YES  fi  # Cleanup user home directory  if [ -d "$CFFIXED_USER_HOME" ]; then    rm -rf "$CFFIXED_USER_HOME"  fi  mkdir "$CFFIXED_USER_HOME"  mkdir "$CFFIXED_USER_HOME/Documents"  mkdir -p "$CFFIXED_USER_HOME/Library/Caches"  # 6251475 iPhone simulator leaks @ CFHTTPCookieStore shutdown if   #         CFFIXED_USER_HOME empty  GTM_LEAKS_SYMBOLS_TO_IGNORE="CFHTTPCookieStore"    "$TARGET_BUILD_DIR/$EXECUTABLE_PATH" -RegisterForSystemEventselse  GTMXcodeNote ${LINENO} "Skipping running of unittests for device build."fiNo matching processes belonging to you were foundrm(2298) malloc: protecting edgesrm(2298) malloc: recording malloc stacks to disk using standard recorderrm(2298) malloc: enabling scribbling to detect mods to free blocksrm(2298) malloc: stack logs being written into /tmp/stack-logs.2298.rm.GzCF2U.indexrm(2298) malloc: stack logs deleted from /tmp/stack-logs.2298.rm.GzCF2U.indexmkdir(2299) malloc: protecting edgesmkdir(2299) malloc: recording malloc stacks to disk using standard recordermkdir(2299) malloc: enabling scribbling to detect mods to free blocksmkdir(2299) malloc: stack logs being written into /tmp/stack-logs.2299.mkdir.dX2Bbs.indexmkdir(2299) malloc: stack logs deleted from /tmp/stack-logs.2299.mkdir.dX2Bbs.indexmkdir(2300) malloc: protecting edgesmkdir(2300) malloc: recording malloc stacks to disk using standard recordermkdir(2300) malloc: enabling scribbling to detect mods to free blocksmkdir(2300) malloc: stack logs being written into /tmp/stack-logs.2300.mkdir.clhQL8.indexmkdir(2300) malloc: stack logs deleted from /tmp/stack-logs.2300.mkdir.clhQL8.indexmkdir(2301) malloc: protecting edgesmkdir(2301) malloc: recording malloc stacks to disk using standard recordermkdir(2301) malloc: enabling scribbling to detect mods to free blocksmkdir(2301) malloc: stack logs being written into /tmp/stack-logs.2301.mkdir.na21tz.indexmkdir(2301) malloc: stack logs deleted from /tmp/stack-logs.2301.mkdir.na21tz.indexGTMUnitTests(2302) malloc: protecting edgesGTMUnitTests(2302) malloc: recording malloc stacks to disk using standard recorderGTMUnitTests(2302) malloc: enabling scribbling to detect mods to free blocksGTMUnitTests(2302) malloc: stack logs being written into /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.indexobjc[2302]: REPLACED: -[NSSet initWithCoder:]  by category NSSet  (IMP was 0x19eb950 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x21e50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSSet encodeWithCoder:]  by category NSSet  (IMP was 0x19eb960 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8a0c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSArray isNSArray__]  by category NSKindOfAdditions  (IMP was 0x19e6070 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x125c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDictionary isNSDictionary__]  by category NSKindOfAdditions  (IMP was 0x19e8270 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x31ad0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSSet isNSSet__]  by category NSKindOfAdditions  (IMP was 0x19eb940 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8eaf0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDate isNSDate__]  by category NSKindOfAdditions  (IMP was 0x19e7d80 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x66880 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSObject dealloc]  by category NSObject  (IMP was 0x198b800 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x168a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSObject autorelease]  by category NSObject  (IMP was 0x19eb100 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x10e40 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: +[NSObject initialize]  by category NSObject  (IMP was 0x1980550 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xea30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSNull initWithCoder:]  by category NSNull  (IMP was 0x19eb090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda930 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSNull encodeWithCoder:]  by category NSNull  (IMP was 0x19eb0a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda920 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSException initWithCoder:]  by category NSException  (IMP was 0x19e9d20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbcbb0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSException encodeWithCoder:]  by category NSException  (IMP was 0x19e9d30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbccc0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDictionary initWithCoder:]  by category NSDictionary  (IMP was 0x19e8280 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x3e2f0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDictionary encodeWithCoder:]  by category NSDictionary  (IMP was 0x19e8290 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4e500 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDate initWithCoder:]  by category NSDate  (IMP was 0x19e7d90 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x68d60 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSDate encodeWithCoder:]  by category NSDate  (IMP was 0x19e7da0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x67340 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSArray initWithCoder:]  by category NSArray  (IMP was 0x19e6080 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x229d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[NSArray encodeWithCoder:]  by category NSArray  (IMP was 0x19e6090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4f5b0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))objc[2302]: REPLACED: -[WebFrame convertNSRangeToDOMRange:]  by category WebPrivate  (IMP was 0x2f34b50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f34990 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))objc[2302]: REPLACED: -[WebFrame convertDOMRangeToNSRange:]  by category WebPrivate  (IMP was 0x2f34b20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f349d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))objc[2302]: REPLACED: -[UIWebDocumentView selectAll]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f1335 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e87a1 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))objc[2302]: REPLACED: -[UIWebDocumentView selectionState]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3efa96 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8c66 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))objc[2302]: REPLACED: -[UIWebDocumentView hasSelection]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f15a2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8ddd (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))objc[2302]: REPLACED: -[UIToolbar setBounds:]  by category UIButtonBarPrivate  (IMP was 0x36fc4a (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x36fac2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))objc[2302]: REPLACED: -[NSString drawInRect:withFont:]  by category UIStringDrawing  (IMP was 0x44caf4 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x2acbae (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))2010-06-21 13:38:22.797 GTMUnitTests[2302:903] Failed to load NSMainNibFile MainWindow.Test Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' started at 2010-06-21 13:38:22 +0200Test Suite 'TwitterClientViewControllerTests' started at 2010-06-21 13:38:22 +0200Test Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' started.Test Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' passed (0.011 seconds).Test Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' started.Test Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' passed (0.000 seconds).Test Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' started.Test Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' passed (0.000 seconds).Test Suite 'TwitterClientViewControllerTests' finished at 2010-06-21 13:38:22 +0200.Executed 3 tests, with 0 failures (0 unexpected) in 0.013 (0.013) secondsTest Suite 'SenTestCase' started at 2010-06-21 13:38:22 +0200Test Suite 'SenTestCase' finished at 2010-06-21 13:38:22 +0200.Executed 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) secondsTest Suite 'GTMTestCase' started at 2010-06-21 13:38:22 +0200Test Suite 'GTMTestCase' finished at 2010-06-21 13:38:22 +0200.Executed 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) secondsTest Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' finished at 2010-06-21 13:38:22 +0200.Executed 3 tests, with 0 failures (0 unexpected) in 0.032 (0.032) secondsGTMUnitTests(2302,0xa022c4e0) malloc: stack logs deleted from /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.indexexit 0164(13@38"#  Controlling environment variables:298813102#1#38#0(1@0"0(13@25"# GTM_DISABLE_ZOMBIES - 298813102#39#25#0(1@0"0(13@72"#   Set to a non-zero value to turn on zombie checks. You will probably298813102#64#72#0(1@0"0(13@47"#   want to turn this off if you enable leaks.298813102#136#47#0(1@0"0(13@46"GTM_DISABLE_ZOMBIES=${GTM_DISABLE_ZOMBIES:=1}298813102#183#46#0(1@0"0(13@21"# GTM_ENABLE_LEAKS -298813102#230#21#0(1@0"0(13@79"#   Set to a non-zero value to turn on the leaks check. You will probably want298813102#251#79#0(1@0"0(13@73"#   to disable zombies, otherwise you will get a lot of false positives.298813102#330#73#0(1@0"0(13@26"# GTM_DISABLE_TERMINATION298813102#404#26#0(1@0"0(13@81"#   Set to a non-zero value so that the app doesn't terminate when it's finished298813102#430#81#0(1@0"0(13@73"#   running tests. This is useful when using it with external tools such298813102#511#73#0(1@0"0(13@20"#   as Instruments.298813102#584#20#0(1@0"0(13@30"# GTM_LEAKS_SYMBOLS_TO_IGNORE298813102#605#30#0(1@0"0(13@81"#   List of comma separated symbols that leaks should ignore. Mainly to control 298813102#635#81#0(1@0"0(13@54"#   leaks in frameworks you don't have control over. 298813102#716#54#0(1@0"0(13@71"#   Search this file for GTM_LEAKS_SYMBOLS_TO_IGNORE to see examples. 298813102#770#71#0(1@0"0(13@77"#   Please feel free to add other symbols as you find them but make sure to 298813102#841#77#0(1@0"0(13@64"#   reference Radars or other bug systems so we can track them.298813102#918#64#0(1@0"0(13@23"# GTM_REMOVE_GCOV_DATA298813102#983#23#0(1@0"0(13@77"#   Before starting the test, remove any *.gcda files for the current run so298813102#1006#77#0(1@0"0(13@77"#   you won't get errors when the source file has changed and the data can't298813102#1083#77#0(1@0"0(13@15"#   be merged.298813102#1160#15#0(1@0"0(13@2"#298813102#1175#2#0(1@0"0(13@48"GTM_REMOVE_GCOV_DATA=${GTM_REMOVE_GCOV_DATA:=0}298813102#1177#48#0(1@0"0(13@68"ScriptDir=$(dirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")")298813102#1226#68#0(1@0"0(13@55"dirname "$(echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,")"298813102#1294#55#0(1@0"0(13@42"echo $0 | sed -e "s,^\([^/]\),$(pwd)/\1,"298813102#1349#42#0(1@0"0(13@4"pwd298813102#1391#4#0(1@0"0(13@28"ScriptName=$(basename "$0")298813102#1395#28#0(1@0"0(13@14"basename "$0"298813102#1423#14#0(1@0"0(13@40"ThisScript="${ScriptDir}/${ScriptName}"298813102#1437#40#0(1@0"0(13@17"GTMXcodeNote() {298813102#1478#17#0(1@0"0(13@44"    echo ${ThisScript}:${1}: note: GTM ${2}298813102#1495#44#0(1@0"0(13@2"}298813102#1539#2#0(1@0"0(13@51"if [ "$PLATFORM_NAME" == "iphonesimulator" ]; then298813102#1542#51#0(1@0"0(13@76"  # We kill the iPhone simulator because otherwise we run into issues where298813102#1593#76#0(1@0"0(13@72"  # the unittests fail becuase the simulator is currently running, and 298813102#1669#72#0(1@0"0(13@79"  # at this time the iPhone SDK won't allow two simulators running at the same298813102#1741#79#0(1@0"0(13@10"  # time.298813102#1820#10#0(1@0"0(13@9"  set +e298813102#1830#9#0(1@0"0(13@38"  /usr/bin/killall "iPhone Simulator"298813102#1839#38#0(1@0"0(13@9"  set -e298813102#1877#9#0(1@0"0(13@3"  298813102#1886#3#0(1@0"0(13@43"  if [ $GTM_REMOVE_GCOV_DATA -ne 0 ]; then298813102#1889#43#0(1@0"0(13@64"    if [ "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" != "-" ]; then298813102#1932#64#0(1@0"0(13@62"      if [ -d "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" ]; then298813102#1996#62#0(1@0"0(13@58"        GTMXcodeNote ${LINENO} "Removing any .gcda files"298813102#2058#58#0(1@0"0(13@57"        (cd "${OBJECT_FILE_DIR}-${CURRENT_VARIANT}" && \298813102#2116#57#0(1@0"0(13@69"            find . -type f -name "*.gcda" -print0 | xargs -0 rm -f )298813102#2173#69#0(1@0"0(13@9"      fi298813102#2242#9#0(1@0"0(13@7"    fi298813102#2251#7#0(1@0"0(13@5"  fi298813102#2258#5#0(1@0"0(13@35"  export DYLD_ROOT_PATH="$SDKROOT"298813102#2264#35#0(1@0"0(13@56"  export DYLD_FRAMEWORK_PATH="$CONFIGURATION_BUILD_DIR"298813102#2299#56#0(1@0"0(13@42"  export IPHONE_SIMULATOR_ROOT="$SDKROOT"298813102#2355#42#0(1@0"0(13@71"  export CFFIXED_USER_HOME="$TEMP_FILES_DIR/iPhone Simulator User Dir"298813102#2397#71#0(1@0"0(13@3"  298813102#2468#3#0(1@0"0(13@72"  # See http://developer.apple.com/technotes/tn2004/tn2124.html for an 298813102#2471#72#0(1@0"0(13@48"  # explanation of these environment variables.298813102#2543#48#0(1@0"0(13@3"  298813102#2591#3#0(1@0"0(13@28"  export MallocScribble=YES298813102#2594#28#0(1@0"0(13@31"  export MallocPreScribble=YES298813102#2622#31#0(1@0"0(13@30"  export MallocGuardEdges=YES298813102#2653#30#0(1@0"0(13@32"  export MallocStackLogging=YES298813102#2683#32#0(1@0"0(13@50"  export NSAutoreleaseFreedObjectCheckEnabled=YES298813102#2715#50#0(1@0"0(13@54"  # Turn on the mostly undocumented OBJC_DEBUG stuff.298813102#2766#54#0(1@0"0(13@45"  export OBJC_DEBUG_FRAGILE_SUPERCLASSES=YES298813102#2820#45#0(1@0"0(13@31"  export OBJC_DEBUG_UNLOAD=YES298813102#2865#31#0(1@0"0(13@69"  # Turned off due to the amount of false positives from NS classes.298813102#2896#69#0(1@0"0(13@39"  # export OBJC_DEBUG_FINALIZERS=YES  298813102#2965#39#0(1@0"0(13@33"  export OBJC_DEBUG_NIL_SYNC=YES298813102#3004#33#0(1@0"0(13@41"  export OBJC_PRINT_REPLACED_METHODS=YES298813102#3037#41#0(1@0"0(13@42"  if [ $GTM_DISABLE_ZOMBIES -eq 0 ]; then298813102#3079#42#0(1@0"0(13@46"    GTMXcodeNote ${LINENO} "Enabling zombies"298813102#3121#46#0(1@0"0(13@27"    export CFZombieLevel=3298813102#3167#27#0(1@0"0(13@31"    export NSZombieEnabled=YES298813102#3194#31#0(1@0"0(13@5"  fi298813102#3225#5#0(1@0"0(13@32"  # Cleanup user home directory298813102#3231#32#0(1@0"0(13@39"  if [ -d "$CFFIXED_USER_HOME" ]; then298813102#3263#39#0(1@0"0(13@32"    rm -rf "$CFFIXED_USER_HOME"298813102#3302#32#0(1@0"0(13@5"  fi298813102#3334#5#0(1@0"0(13@29"  mkdir "$CFFIXED_USER_HOME"298813102#3339#29#0(1@0"0(13@39"  mkdir "$CFFIXED_USER_HOME/Documents"298813102#3368#39#0(1@0"0(13@47"  mkdir -p "$CFFIXED_USER_HOME/Library/Caches"298813102#3407#47#0(1@0"0(13@68"  # 6251475 iPhone simulator leaks @ CFHTTPCookieStore shutdown if 298813102#3455#68#0(1@0"0(13@36"  #         CFFIXED_USER_HOME empty298813102#3523#36#0(1@0"0(13@50"  GTM_LEAKS_SYMBOLS_TO_IGNORE="CFHTTPCookieStore"298813102#3559#50#0(1@0"0(13@3"  298813102#3609#3#0(1@0"0(13@64"  "$TARGET_BUILD_DIR/$EXECUTABLE_PATH" -RegisterForSystemEvents298813102#3612#64#0(1@0"0(13@5"else298813102#3676#5#0(1@0"0(13@75"  GTMXcodeNote ${LINENO} "Skipping running of unittests for device build."298813102#3681#75#0(1@0"0(13@3"fi298813102#3756#3#0(1@0"0(13@50"No matching processes belonging to you were found298813102#3759#50#0(1@0"0(13@34"rm(2298) malloc: protecting edges298813102#3809#34#0(1@0"0(13@73"rm(2298) malloc: recording malloc stacks to disk using standard recorder298813102#3843#73#0(1@0"0(13@67"rm(2298) malloc: enabling scribbling to detect mods to free blocks298813102#3916#67#0(1@0"0(13@84"rm(2298) malloc: stack logs being written into /tmp/stack-logs.2298.rm.GzCF2U.index298813102#3983#84#0(1@0"0(13@78"rm(2298) malloc: stack logs deleted from /tmp/stack-logs.2298.rm.GzCF2U.index298813102#4067#78#0(1@0"0(13@37"mkdir(2299) malloc: protecting edges298813102#4145#37#0(1@0"0(13@76"mkdir(2299) malloc: recording malloc stacks to disk using standard recorder298813102#4182#76#0(1@0"0(13@70"mkdir(2299) malloc: enabling scribbling to detect mods to free blocks298813102#4258#70#0(1@0"0(13@90"mkdir(2299) malloc: stack logs being written into /tmp/stack-logs.2299.mkdir.dX2Bbs.index298813102#4328#90#0(1@0"0(13@84"mkdir(2299) malloc: stack logs deleted from /tmp/stack-logs.2299.mkdir.dX2Bbs.index298813102#4418#84#0(1@0"0(13@37"mkdir(2300) malloc: protecting edges298813102#4502#37#0(1@0"0(13@76"mkdir(2300) malloc: recording malloc stacks to disk using standard recorder298813102#4539#76#0(1@0"0(13@70"mkdir(2300) malloc: enabling scribbling to detect mods to free blocks298813102#4615#70#0(1@0"0(13@90"mkdir(2300) malloc: stack logs being written into /tmp/stack-logs.2300.mkdir.clhQL8.index298813102#4685#90#0(1@0"0(13@84"mkdir(2300) malloc: stack logs deleted from /tmp/stack-logs.2300.mkdir.clhQL8.index298813102#4775#84#0(1@0"0(13@37"mkdir(2301) malloc: protecting edges298813102#4859#37#0(1@0"0(13@76"mkdir(2301) malloc: recording malloc stacks to disk using standard recorder298813102#4896#76#0(1@0"0(13@70"mkdir(2301) malloc: enabling scribbling to detect mods to free blocks298813102#4972#70#0(1@0"0(13@90"mkdir(2301) malloc: stack logs being written into /tmp/stack-logs.2301.mkdir.na21tz.index298813102#5042#90#0(1@0"0(13@84"mkdir(2301) malloc: stack logs deleted from /tmp/stack-logs.2301.mkdir.na21tz.index298813102#5132#84#0(1@0"0(13@44"GTMUnitTests(2302) malloc: protecting edges298813102#5216#44#0(1@0"0(13@83"GTMUnitTests(2302) malloc: recording malloc stacks to disk using standard recorder298813102#5260#83#0(1@0"0(13@77"GTMUnitTests(2302) malloc: enabling scribbling to detect mods to free blocks298813102#5343#77#0(1@0"0(13@104"GTMUnitTests(2302) malloc: stack logs being written into /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.index298813102#5420#104#0(1@0"0(13@399"objc[2302]: REPLACED: -[NSSet initWithCoder:]  by category NSSet  (IMP was 0x19eb950 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x21e50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#5524#399#0(1@0"0(13@401"objc[2302]: REPLACED: -[NSSet encodeWithCoder:]  by category NSSet  (IMP was 0x19eb960 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8a0c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#5923#401#0(1@0"0(13@410"objc[2302]: REPLACED: -[NSArray isNSArray__]  by category NSKindOfAdditions  (IMP was 0x19e6070 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x125c0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#6324#410#0(1@0"0(13@420"objc[2302]: REPLACED: -[NSDictionary isNSDictionary__]  by category NSKindOfAdditions  (IMP was 0x19e8270 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x31ad0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#6734#420#0(1@0"0(13@406"objc[2302]: REPLACED: -[NSSet isNSSet__]  by category NSKindOfAdditions  (IMP was 0x19eb940 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x8eaf0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#7154#406#0(1@0"0(13@408"objc[2302]: REPLACED: -[NSDate isNSDate__]  by category NSKindOfAdditions  (IMP was 0x19e7d80 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x66880 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#7560#408#0(1@0"0(13@398"objc[2302]: REPLACED: -[NSObject dealloc]  by category NSObject  (IMP was 0x198b800 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x168a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#7968#398#0(1@0"0(13@402"objc[2302]: REPLACED: -[NSObject autorelease]  by category NSObject  (IMP was 0x19eb100 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x10e40 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#8366#402#0(1@0"0(13@400"objc[2302]: REPLACED: +[NSObject initialize]  by category NSObject  (IMP was 0x1980550 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xea30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#8768#400#0(1@0"0(13@401"objc[2302]: REPLACED: -[NSNull initWithCoder:]  by category NSNull  (IMP was 0x19eb090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda930 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#9168#401#0(1@0"0(13@403"objc[2302]: REPLACED: -[NSNull encodeWithCoder:]  by category NSNull  (IMP was 0x19eb0a0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xda920 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#9569#403#0(1@0"0(13@411"objc[2302]: REPLACED: -[NSException initWithCoder:]  by category NSException  (IMP was 0x19e9d20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbcbb0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#9972#411#0(1@0"0(13@413"objc[2302]: REPLACED: -[NSException encodeWithCoder:]  by category NSException  (IMP was 0x19e9d30 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0xbccc0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#10383#413#0(1@0"0(13@413"objc[2302]: REPLACED: -[NSDictionary initWithCoder:]  by category NSDictionary  (IMP was 0x19e8280 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x3e2f0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#10796#413#0(1@0"0(13@415"objc[2302]: REPLACED: -[NSDictionary encodeWithCoder:]  by category NSDictionary  (IMP was 0x19e8290 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4e500 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#11209#415#0(1@0"0(13@401"objc[2302]: REPLACED: -[NSDate initWithCoder:]  by category NSDate  (IMP was 0x19e7d90 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x68d60 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#11624#401#0(1@0"0(13@403"objc[2302]: REPLACED: -[NSDate encodeWithCoder:]  by category NSDate  (IMP was 0x19e7da0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x67340 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#12025#403#0(1@0"0(13@403"objc[2302]: REPLACED: -[NSArray initWithCoder:]  by category NSArray  (IMP was 0x19e6080 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x229d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#12428#403#0(1@0"0(13@405"objc[2302]: REPLACED: -[NSArray encodeWithCoder:]  by category NSArray  (IMP was 0x19e6090 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation), now 0x4f5b0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation))298813102#12831#405#0(1@0"0(13@410"objc[2302]: REPLACED: -[WebFrame convertNSRangeToDOMRange:]  by category WebPrivate  (IMP was 0x2f34b50 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f34990 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))298813102#13236#410#0(1@0"0(13@410"objc[2302]: REPLACED: -[WebFrame convertDOMRangeToNSRange:]  by category WebPrivate  (IMP was 0x2f34b20 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit), now 0x2f349d0 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/PrivateFrameworks/WebKit.framework/WebKit))298813102#13646#410#0(1@0"0(13@403"objc[2302]: REPLACED: -[UIWebDocumentView selectAll]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f1335 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e87a1 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))298813102#14056#403#0(1@0"0(13@408"objc[2302]: REPLACED: -[UIWebDocumentView selectionState]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3efa96 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8c66 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))298813102#14459#408#0(1@0"0(13@406"objc[2302]: REPLACED: -[UIWebDocumentView hasSelection]  by category UIWebDocumentViewTextSelecting  (IMP was 0x3f15a2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x4e8ddd (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))298813102#14867#406#0(1@0"0(13@384"objc[2302]: REPLACED: -[UIToolbar setBounds:]  by category UIButtonBarPrivate  (IMP was 0x36fc4a (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x36fac2 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))298813102#15273#384#0(1@0"0(13@390"objc[2302]: REPLACED: -[NSString drawInRect:withFont:]  by category UIStringDrawing  (IMP was 0x44caf4 (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit), now 0x2acbae (/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit))298813102#15657#390#0(1@0"0(13@88"2010-06-21 13:38:22.797 GTMUnitTests[2302:903] Failed to load NSMainNibFile MainWindow.298813102#16047#88#0(1@0"0(13@152"Test Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' started at 2010-06-21 13:38:22 +0200298813102#16135#152#0(1@0"0(13@83"Test Suite 'TwitterClientViewControllerTests' started at 2010-06-21 13:38:22 +0200298813102#16287#83#0(1@0"0(13@86"Test Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' started.298813102#16370#86#0(1@0"0(13@101"Test Case '-[TwitterClientViewControllerTests test_a_cell_contains_a_tweet]' passed (0.011 seconds).298813102#16456#101#0(1@0"0(13@97"Test Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' started.298813102#16557#97#0(1@0"0(13@112"Test Case '-[TwitterClientViewControllerTests test_number_of_rows_is_number_of_tweets]' passed (0.000 seconds).298813102#16654#112#0(1@0"0(13@85"Test Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' started.298813102#16766#85#0(1@0"0(13@100"Test Case '-[TwitterClientViewControllerTests test_request_tweets_on_load]' passed (0.000 seconds).298813102#16851#100#0(1@0"0(13@85"Test Suite 'TwitterClientViewControllerTests' finished at 2010-06-21 13:38:22 +0200.298813102#16951#85#0(1@0"0(13@74"Executed 3 tests, with 0 failures (0 unexpected) in 0.013 (0.013) seconds298813102#17036#74#0(1@0"0(13@62"Test Suite 'SenTestCase' started at 2010-06-21 13:38:22 +0200298813102#17111#62#0(1@0"0(13@64"Test Suite 'SenTestCase' finished at 2010-06-21 13:38:22 +0200.298813102#17173#64#0(1@0"0(13@74"Executed 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds298813102#17237#74#0(1@0"0(13@62"Test Suite 'GTMTestCase' started at 2010-06-21 13:38:22 +0200298813102#17312#62#0(1@0"0(13@64"Test Suite 'GTMTestCase' finished at 2010-06-21 13:38:22 +0200.298813102#17374#64#0(1@0"0(13@74"Executed 0 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds298813102#17438#74#0(1@0"0(13@154"Test Suite '/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app' finished at 2010-06-21 13:38:22 +0200.298813102#17513#154#0(1@0"0(13@74"Executed 3 tests, with 0 failures (0 unexpected) in 0.032 (0.032) seconds298813102#17667#74#0(1@0"0(13@109"GTMUnitTests(2302,0xa022c4e0) malloc: stack logs deleted from /tmp/stack-logs.2302.GTMUnitTests.t4CFtm.index298813102#17742#109#0(1@0"0(13@7"exit 0298813102#17851#7#0(1@0"0(0#0#0"4300885448#18640"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER lcobos    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build    setenv BUILD_ROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH GTMUnitTests.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/TwitterClient.dst    setenv DWARF_DSYM_FILE_NAME GTMUnitTests.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH GTMUnitTests.app/Executables    setenv EXECUTABLE_FOLDER_PATH GTMUnitTests.app    setenv EXECUTABLE_NAME GTMUnitTests    setenv EXECUTABLE_PATH GTMUnitTests.app/GTMUnitTests    setenv FILE_LIST /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH GTMUnitTests.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator\"  \"/Users/lcobos/Developpement/xcode-projects/TwitterClient\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME GTMUnitTests.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include\" \"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only\" \"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting\" \"/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE GTMUnitTests-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH GTMUnitTests.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/TwitterClient.dst/Users/lcobos/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER lcobos    setenv INSTALL_PATH /Users/lcobos/Applications    setenv INSTALL_ROOT /tmp/TwitterClient.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH GTMUnitTests.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal/i386/GTMUnitTests.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Objects-normal    setenv OBJROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH GTMUnitTests.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/PkgInfo    setenv PKGINFO_PATH GTMUnitTests.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH GTMUnitTests.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH GTMUnitTests.app/PrivateHeaders    setenv PRODUCT_NAME GTMUnitTests    setenv PRODUCT_SETTINGS_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/GTMUnitTests-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT TwitterClient    setenv PROJECT_DERIVED_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/DerivedSources    setenv PROJECT_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv PROJECT_FILE_PATH /Users/lcobos/Developpement/xcode-projects/TwitterClient/TwitterClient.xcodeproj    setenv PROJECT_NAME TwitterClient    setenv PROJECT_TEMP_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build    setenv PUBLIC_HEADERS_FOLDER_PATH GTMUnitTests.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH GTMUnitTests.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk    setenv SDK_NAME iphonesimulator3.1.3    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH GTMUnitTests.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH GTMUnitTests.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv SRCROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/SymbolRepositories    setenv SYMROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME GTMUnitTests    setenv TARGET_BUILD_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator    setenv TARGET_NAME GTMUnitTests    setenv TARGET_TEMP_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build    setenv TEMP_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build    setenv TEMP_FILES_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build    setenv TEMP_FILE_DIR /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build    setenv TEMP_ROOT /Users/lcobos/Developpement/xcode-projects/TwitterClient/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH GTMUnitTests.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER lcobos    setenv USER_APPS_DIR /Users/lcobos/Applications    setenv USER_LIBRARY_DIR /Users/lcobos/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH GTMUnitTests.app/version.plist    setenv VERSION_INFO_BUILDER lcobos    setenv VERSION_INFO_FILE GTMUnitTests_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:GTMUnitTests  PROJECT:TwitterClient-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME GTMUnitTests.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/Script-378185E111C63F220084CD71.sh0#
+
+CProcessInfoPlistFile /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/Info.plist GTMUnitTests-Info.plist
+s298812972.349900
+e298812972.353694
+r1
+xProcessInfoPlistFile
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/Info.plist
+xGTMUnitTests-Info.plist
+lSLF07#2@31"Process GTMUnitTests-Info.plist298812972#298812972#0(0"0(0#0#80"/Users/lcobos/Developpement/xcode-projects/TwitterClient/GTMUnitTests-Info.plist4300885448#610"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility GTMUnitTests-Info.plist -genpkginfo /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app/Info.plist0#
+
+CProcessPCH /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s298812972.353804
+e298812973.015252
+r1
+xProcessPCH
+x/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch
+x/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Precompile /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h298812972#298812973#0(0"0(0#0#143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h4300885448#2521"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/Foundation -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -c /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h -o /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-bsfrsxezycsdsrajncomometqsbi/UIKit.h.gch0#
+
+CProcessPCH /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-fagokaiozynnedgnxcnviboyauhi/UIKit.h.gch /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s298205036.166624
+e298205036.799695
+r1
+xProcessPCH
+x/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-fagokaiozynnedgnxcnviboyauhi/UIKit.h.gch
+x/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Precompile /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h298205036#298205036#0(0"0(0#0#143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h4300885448#2406"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -F/Users/lcobos/Developpement/xcode-projects/TwitterClient -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -c /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h -o /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-fagokaiozynnedgnxcnviboyauhi/UIKit.h.gch0#
+
+CProcessPCH /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-gvkeexrmhyuevbbcdiapsveivqqz/UIKit.h.gch /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s298204908.085351
+e298204908.712738
+r1
+xProcessPCH
+x/var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-gvkeexrmhyuevbbcdiapsveivqqz/UIKit.h.gch
+x/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@154"Precompile /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h298204908#298204908#0(0"0(0#0#143"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h4300885448#2347"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-generated-files.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-own-target-headers.hmap -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-all-target-headers.hmap -iquote /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/GTMUnitTests-project-headers.hmap -F/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/include -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/../../tools/google-toolbox-for-mac-read-only/UnitTesting -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources/i386 -I/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/TwitterClient.build/Debug-iphonesimulator/GTMUnitTests.build/DerivedSources -c /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h -o /var/folders/RQ/RQcc1FbzETuqfts4Huvnrk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UIKit-gvkeexrmhyuevbbcdiapsveivqqz/UIKit.h.gch0#
+
+CTouch /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app
+s298813102.873002
+e298813102.876694
+r1
+xTouch
+x/Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app
+lSLF07#2@107"Touch /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app298813102#298813102#0(0"0(0#0#0"4300885448#381"    cd /Users/lcobos/Developpement/xcode-projects/TwitterClient    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/lcobos/Developpement/xcode-projects/TwitterClient/build/Debug-iphonesimulator/GTMUnitTests.app0#
+
