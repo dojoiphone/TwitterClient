@@ -15,7 +15,7 @@
 		2899E5220DE3E06400AC0155 /* TwitterClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TwitterClientViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* TwitterClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TwitterClientViewController.m */; };
-		372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Resources */ = {isa = PBXBuildFile; fileRef = 372325FB11CF840500C36926 /* XmlTwitterRepositoryTests.m */; };
+		372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372325FB11CF840500C36926 /* XmlTwitterRepositoryTests.m */; };
 		3723260711CF859600C36926 /* XmlTwitterRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723260611CF859600C36926 /* XmlTwitterRepository.m */; };
 		3723260811CF859600C36926 /* XmlTwitterRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723260611CF859600C36926 /* XmlTwitterRepository.m */; };
 		378185D111C63EF10084CD71 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */; };
@@ -250,7 +250,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Sources */,
 				378185D111C63EF10084CD71 /* GTMIPhoneUnitTestDelegate.m in Sources */,
 				378185D811C63EF70084CD71 /* GTMIPhoneUnitTestMain.m in Sources */,
 				378185E711C63F570084CD71 /* TwitterClientViewControllerTests.m in Sources */,
