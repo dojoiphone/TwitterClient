@@ -21,10 +21,25 @@
 		378185D111C63EF10084CD71 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */; };
 		378185D811C63EF70084CD71 /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781856011C63E300084CD71 /* GTMIPhoneUnitTestMain.m */; };
 		378185E711C63F570084CD71 /* TwitterClientViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377FA9A011A154FC00AE157E /* TwitterClientViewControllerTests.m */; };
-		378185EA11C63F6B0084CD71 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377FA95111A1548500AE157E /* OCMock.framework */; };
+		378185EA11C63F6B0084CD71 /* OCMock.framework in Copy OCMock */ = {isa = PBXBuildFile; fileRef = 377FA95111A1548500AE157E /* OCMock.framework */; };
 		378185F711C63FE60084CD71 /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 378185F611C63FE60084CD71 /* GTMSenTestCase.m */; };
 		378185FF11C640280084CD71 /* TwitterClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TwitterClientViewController.m */; };
+		8ED4B31311D8931500DEB0BB /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377FA95111A1548500AE157E /* OCMock.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8ED4B31211D8930F00DEB0BB /* Copy OCMock */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				378185EA11C63F6B0084CD71 /* OCMock.framework in Copy OCMock */,
+			);
+			name = "Copy OCMock";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,11 +60,11 @@
 		377FA95111A1548500AE157E /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
 		377FA99911A154CB00AE157E /* TwitterClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterClientTests-Info.plist"; sourceTree = "<group>"; };
 		377FA9A011A154FC00AE157E /* TwitterClientViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterClientViewControllerTests.m; sourceTree = "<group>"; };
-		3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestDelegate.m; path = "../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestDelegate.m"; sourceTree = SOURCE_ROOT; };
-		3781856011C63E300084CD71 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestMain.m; path = "../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMIPhoneUnitTestMain.m"; sourceTree = SOURCE_ROOT; };
+		3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestDelegate.m; path = UnitTesting/GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		3781856011C63E300084CD71 /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMIPhoneUnitTestMain.m; path = UnitTesting/GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
 		378185B911C63EBC0084CD71 /* GTMUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTMUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378185BB11C63EBC0084CD71 /* GTMUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTMUnitTests-Info.plist"; sourceTree = "<group>"; };
-		378185F611C63FE60084CD71 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSenTestCase.m; path = "../../tools/google-toolbox-for-mac-read-only/UnitTesting/GTMSenTestCase.m"; sourceTree = SOURCE_ROOT; };
+		378185F611C63FE60084CD71 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSenTestCase.m; path = UnitTesting/GTMSenTestCase.m; sourceTree = "<group>"; };
 		3781867211C6463E0084CD71 /* TwitterRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRepository.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TwitterClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TwitterClient-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378185EA11C63F6B0084CD71 /* OCMock.framework in Frameworks */,
+				8ED4B31311D8931500DEB0BB /* OCMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +117,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8ED4B2F211D8911700DEB0BB /* google-toolbox-for-mac */,
 				377FA99E11A154DF00AE157E /* UnitTests */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -148,12 +164,19 @@
 			isa = PBXGroup;
 			children = (
 				372325FB11CF840500C36926 /* XmlTwitterRepositoryTests.m */,
-				378185F611C63FE60084CD71 /* GTMSenTestCase.m */,
-				3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */,
-				3781856011C63E300084CD71 /* GTMIPhoneUnitTestMain.m */,
 				377FA9A011A154FC00AE157E /* TwitterClientViewControllerTests.m */,
 			);
 			name = UnitTests;
+			sourceTree = "<group>";
+		};
+		8ED4B2F211D8911700DEB0BB /* google-toolbox-for-mac */ = {
+			isa = PBXGroup;
+			children = (
+				378185F611C63FE60084CD71 /* GTMSenTestCase.m */,
+				3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */,
+				3781856011C63E300084CD71 /* GTMIPhoneUnitTestMain.m */,
+			);
+			path = "google-toolbox-for-mac";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +206,7 @@
 				378185B511C63EBC0084CD71 /* Resources */,
 				378185B611C63EBC0084CD71 /* Sources */,
 				378185B711C63EBC0084CD71 /* Frameworks */,
+				8ED4B31211D8930F00DEB0BB /* Copy OCMock */,
 				378185E111C63F220084CD71 /* Run unit tests */,
 			);
 			buildRules = (
@@ -245,7 +269,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/Users/lcobos/Developpement/tools/google-toolbox-for-mac-read-only/UnitTesting/RunIPhoneUnitTest.sh\n";
+			shellScript = "${SRCROOT}/google-toolbox-for-mac/UnitTesting/RunIPhoneUnitTest.sh\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -376,11 +401,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only\"",
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only/UnitTesting\"",
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only/Foundation\"",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/google-toolbox-for-mac\"/**";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.3;
 			};
@@ -394,11 +415,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only\"",
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only/UnitTesting\"",
-					"\"$(SRCROOT)/../../tools/google-toolbox-for-mac-read-only/Foundation\"",
-				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/google-toolbox-for-mac\"/**";
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.3;
 			};
