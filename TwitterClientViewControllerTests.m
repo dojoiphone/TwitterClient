@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #import <OCMock/OCMock.h>
 #import "TwitterClientViewController.h"
-#import "TwitterRepository.h"
+#import "XmlTwitterRepository.h"
 
 //#import "application_headers" as required
 
@@ -48,9 +48,9 @@
 }
 
 - (void)test_request_tweets_on_load {
-	OCMockObject *twitterRepository = [OCMockObject mockForProtocol:@protocol(TwitterRepository)];
+	OCMockObject *twitterRepository = [OCMockObject mockForClass:[XmlTwitterRepository class]];
 	[[[twitterRepository stub] andReturn:[NSArray arrayWithObjects:@"a", nil]] getTweets];
-	twitterClientViewController.repository = (id<TwitterRepository>)twitterRepository;
+	twitterClientViewController.repository = (id)twitterRepository;
 	
 	[twitterClientViewController viewDidLoad];
 	

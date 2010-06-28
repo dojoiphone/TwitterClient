@@ -24,9 +24,22 @@
 
 - (void) test_returns_tweets {
     XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
-    NSArray *expected =[NSArray arrayWithObjects:@"a", nil];
+    NSArray *expected = [NSArray arrayWithObjects:@"a", nil];
     STAssertEqualObjects([repository getTweets], expected, nil);
-	STFail(@"TODO");
+}
+
+- (void) test_parse_single_status_timeline {
+    XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
+    NSArray *expected = [NSArray arrayWithObjects:@"hello", nil];
+    NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>hello</text></status></statuses>"];
+    STAssertEqualObjects(parsed, expected, nil);
+}
+
+- (void) test_parse_other_single_status_timeline {
+    XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
+    NSArray *expected = [NSArray arrayWithObjects:@"world", nil];
+    NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>world</text></status></statuses>"];
+    STAssertEqualObjects(parsed, expected, nil);
 }
 
 @end

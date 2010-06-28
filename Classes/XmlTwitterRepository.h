@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TwitterRepository.h"
 
-@interface XmlTwitterRepository : NSObject<TwitterRepository> {
-
+@interface XmlTwitterRepository : NSObject {
+    NSMutableArray *tweets;
 }
+
+-(NSArray *)getTweets;
+-(NSArray *)parseStatusTimeline:(NSString *)xml;
 
 @end

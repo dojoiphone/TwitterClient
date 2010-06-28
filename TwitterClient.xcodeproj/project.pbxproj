@@ -15,7 +15,6 @@
 		2899E5220DE3E06400AC0155 /* TwitterClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* TwitterClientViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* TwitterClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TwitterClientViewController.m */; };
-		372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372325FB11CF840500C36926 /* XmlTwitterRepositoryTests.m */; };
 		3723260711CF859600C36926 /* XmlTwitterRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723260611CF859600C36926 /* XmlTwitterRepository.m */; };
 		3723260811CF859600C36926 /* XmlTwitterRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 3723260611CF859600C36926 /* XmlTwitterRepository.m */; };
 		378185D111C63EF10084CD71 /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3781855F11C63E300084CD71 /* GTMIPhoneUnitTestDelegate.m */; };
@@ -24,6 +23,8 @@
 		378185EA11C63F6B0084CD71 /* OCMock.framework in Copy OCMock */ = {isa = PBXBuildFile; fileRef = 377FA95111A1548500AE157E /* OCMock.framework */; };
 		378185F711C63FE60084CD71 /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 378185F611C63FE60084CD71 /* GTMSenTestCase.m */; };
 		378185FF11C640280084CD71 /* TwitterClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* TwitterClientViewController.m */; };
+		8E5B4EB211D8B28000A734ED /* XmlTwitterRepositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 372325FB11CF840500C36926 /* XmlTwitterRepositoryTests.m */; };
+		8E5B4EFA11D8B68E00A734ED /* twitterSample.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B4EF911D8B68E00A734ED /* twitterSample.xml */; };
 		8ED4B31311D8931500DEB0BB /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377FA95111A1548500AE157E /* OCMock.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +66,8 @@
 		378185B911C63EBC0084CD71 /* GTMUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTMUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		378185BB11C63EBC0084CD71 /* GTMUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTMUnitTests-Info.plist"; sourceTree = "<group>"; };
 		378185F611C63FE60084CD71 /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSenTestCase.m; path = UnitTesting/GTMSenTestCase.m; sourceTree = "<group>"; };
-		3781867211C6463E0084CD71 /* TwitterRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterRepository.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* TwitterClient-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TwitterClient-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8E5B4EF911D8B68E00A734ED /* twitterSample.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = twitterSample.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +99,6 @@
 				1D3623250D0F684500981E51 /* TwitterClientAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* TwitterClientViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* TwitterClientViewController.m */,
-				3781867211C6463E0084CD71 /* TwitterRepository.h */,
 				3723260511CF859600C36926 /* XmlTwitterRepository.h */,
 				3723260611CF859600C36926 /* XmlTwitterRepository.m */,
 			);
@@ -145,6 +145,7 @@
 				2899E5210DE3E06400AC0155 /* TwitterClientViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* TwitterClient-Info.plist */,
+				8E5B4EF911D8B68E00A734ED /* twitterSample.xml */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -250,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E5B4EFA11D8B68E00A734ED /* twitterSample.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				372325FC11CF840500C36926 /* XmlTwitterRepositoryTests.m in Sources */,
 				378185D111C63EF10084CD71 /* GTMIPhoneUnitTestDelegate.m in Sources */,
 				378185D811C63EF70084CD71 /* GTMIPhoneUnitTestMain.m in Sources */,
 				378185E711C63F570084CD71 /* TwitterClientViewControllerTests.m in Sources */,
 				378185F711C63FE60084CD71 /* GTMSenTestCase.m in Sources */,
 				378185FF11C640280084CD71 /* TwitterClientViewController.m in Sources */,
 				3723260711CF859600C36926 /* XmlTwitterRepository.m in Sources */,
+				8E5B4EB211D8B28000A734ED /* XmlTwitterRepositoryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

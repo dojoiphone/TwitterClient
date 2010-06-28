@@ -12,7 +12,19 @@
 @implementation XmlTwitterRepository
 
 -(NSArray *)getTweets {
-	return nil;
+	return [NSArray arrayWithObject:@"a"];
+}
+
+-(NSArray *)parseStatusTimeline:(NSString *)xml {
+    NSXMLParser *parser = [[NSXMLParser alloc] initWithData:[xml dataUsingEncoding:NSUTF8StringEncoding]];
+    [parser setDelegate:self];
+    tweets = [[NSMutableArray alloc] init];
+    [parser parse];
+    return tweets;
+}
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
+    [tweets addObject:string];
 }
 
 @end

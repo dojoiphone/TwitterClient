@@ -7,7 +7,6 @@
 //
 
 #import "TwitterClientViewController.h"
-#import "TwitterRepository.h"
 
 @implementation TwitterClientViewController
 
