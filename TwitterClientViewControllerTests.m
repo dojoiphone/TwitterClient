@@ -58,4 +58,12 @@
 }
 */
 
+- (void)test_request_tweets_on_load {
+	XmlTwitterRepository *twitterRepository = [[XmlTwitterRepository alloc] init];
+	twitterClientViewController.repository = twitterRepository;
+	
+	[twitterClientViewController viewDidLoad];
+	
+	STAssertEqualObjects([twitterClientViewController.tweets objectAtIndex:0], @"world", nil);	
+}
 @end

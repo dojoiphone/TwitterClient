@@ -16,30 +16,47 @@
 
 
 @interface XmlTwitterRepositoryTests : GTMTestCase {
+    
+    XmlTwitterRepository *repository;
 
 }
 @end
 
-@implementation XmlTwitterRepositoryTests
 
-- (void) test_returns_tweets {
-    XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
-    NSArray *expected = [NSArray arrayWithObjects:@"a", nil];
-    STAssertEqualObjects([repository getTweets], expected, nil);
+NSArray* array(NSString *chaine) {
+    return [NSArray arrayWithObjects:chaine, nil];
 }
 
+
+@implementation XmlTwitterRepositoryTests
+
+-(void) setUp {
+   repository = [[XmlTwitterRepository alloc] init];
+}
+
+/*
+- (void) test_returns_tweets {
+    STAssertEqualObjects([repository getTweets], array(@"a"), nil);
+}*/
+
 - (void) test_parse_single_status_timeline {
-    XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
-    NSArray *expected = [NSArray arrayWithObjects:@"hello", nil];
     NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>hello</text></status></statuses>"];
-    STAssertEqualObjects(parsed, expected, nil);
+    STAssertEqualObjects(parsed, array(@"hello"), nil);
 }
 
 - (void) test_parse_other_single_status_timeline {
-    XmlTwitterRepository *repository = [[XmlTwitterRepository alloc] init];
-    NSArray *expected = [NSArray arrayWithObjects:@"world", nil];
     NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>world</text></status></statuses>"];
-    STAssertEqualObjects(parsed, expected, nil);
+    STAssertEqualObjects(parsed, array(@"world"), nil);
+}
+
+- (void) test_parse_single_status_timeline_with_id {
+    NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><id>12345</id><text>world</text></status></statuses>"];
+    STAssertEqualObjects(parsed, array(@"world"), nil);
+}
+
+- (void) test_parse_other_single_status_timeline_multitextnodes {
+    NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>wor<!-- cmt -->ld</text></status></statuses>"];
+    STAssertEqualObjects(parsed, array(@"world"), nil);
 }
 
 @end

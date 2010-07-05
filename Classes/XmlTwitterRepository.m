@@ -11,8 +11,19 @@
 
 @implementation XmlTwitterRepository
 
+- (id) init
+{
+    self = [super init];
+    if (self != nil) {
+        inTextElement = NO;
+        current_status = nil;
+    }
+    return self;
+}
+
+
 -(NSArray *)getTweets {
-	return [NSArray arrayWithObject:@"a"];
+	return [self parseStatusTimeline:@"<statuses><status><id>12345</id><text>world</text></status></statuses>"];
 }
 
 -(NSArray *)parseStatusTimeline:(NSString *)xml {
@@ -23,8 +34,23 @@
     return tweets;
 }
 
-- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-    [tweets addObject:string];
+- (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
+    if ([elementName isEqualToString:@"text"]) {
+        inTextElement = YES;
+        current_status = [[NSMutableString alloc] init];
+    }
 }
 
+- (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
+    if ([elementName isEqualToString:@"text"]) {
+        inTextElement = NO;
+        [tweets addObject:current_status];
+    }
+}
+
+- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
+    if (inTextElement) {
+        [current_status appendString:string];
+    }
+}
 @end

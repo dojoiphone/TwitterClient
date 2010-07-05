@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XmlTwitterRepository : NSObject {
+@interface XmlTwitterRepository : NSObject<NSXMLParserDelegate> {
     NSMutableArray *tweets;
+    NSMutableString *current_status;
+    BOOL inTextElement;
 }
 
 -(NSArray *)getTweets;

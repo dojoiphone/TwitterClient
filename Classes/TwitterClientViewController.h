@@ -7,19 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@protocol TwitterRepository;
+#import "XmlTwitterRepository.h"
 
 @interface TwitterClientViewController : UIViewController<UITableViewDataSource> {
 @private
 	UITableView *_tableView;
 	NSArray *_tweets;
-	id<TwitterRepository> _repository;
+	XmlTwitterRepository *_repository;
 }
 
 @property(nonatomic, retain) IBOutlet UITableView *tableView;
 @property(nonatomic, retain) NSArray *tweets;
-@property(nonatomic, retain) id<TwitterRepository> repository;
+@property(nonatomic, retain) XmlTwitterRepository *repository;
 
 @end
 
