@@ -22,7 +22,7 @@
 - (void) tearDown {
 	[twitterClientViewController release];
 }
-
+/*
 - (void)test_number_of_rows_is_number_of_tweets {
  	NSMutableArray *tweets = [NSMutableArray arrayWithObjects:@"a",@"b",@"c",@"d",@"e",nil];
 	twitterClientViewController.tweets = tweets;
@@ -56,5 +56,6 @@
 	
 	STAssertEqualObjects([twitterClientViewController.tweets objectAtIndex:0], @"a", nil);	
 }
+*/
 
 @end
