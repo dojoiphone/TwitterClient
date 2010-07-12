@@ -34,11 +34,6 @@ NSArray* array(NSString *chaine) {
    repository = [[XmlTwitterRepository alloc] init];
 }
 
-/*
-- (void) test_returns_tweets {
-    STAssertEqualObjects([repository getTweets], array(@"a"), nil);
-}*/
-
 - (void) test_parse_single_status_timeline {
     NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>hello</text></status></statuses>"];
     STAssertEqualObjects(parsed, array(@"hello"), nil);
@@ -57,6 +52,16 @@ NSArray* array(NSString *chaine) {
 - (void) test_parse_other_single_status_timeline_multitextnodes {
     NSArray *parsed = [repository parseStatusTimeline:@"<statuses><status><text>wor<!-- cmt -->ld</text></status></statuses>"];
     STAssertEqualObjects(parsed, array(@"world"), nil);
+}
+
+- (void) test_get_timeline_from_URL {
+    NSString *xml = [repository getTimelineFromURL:@"http://localhost/~jonathanperret/timeline.xml"];
+    STAssertEqualObjects([xml substringToIndex:10], @"<?xml vers", nil);
+}
+
+- (void) test_returns_tweets {
+    repository = [[XmlTwitterRepository alloc] initWithUrl:@"http://localhost/~jonathanperret/timeline.xml"];
+    STAssertEqualObjects([[repository getTweets] objectAtIndex:0], @"Coding Dojo", nil);
 }
 
 @end

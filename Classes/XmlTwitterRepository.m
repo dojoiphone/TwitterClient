@@ -11,19 +11,22 @@
 
 @implementation XmlTwitterRepository
 
-- (id) init
+@synthesize timelineUrl;
+
+- (id) initWithUrl:(NSString *)url
 {
     self = [super init];
     if (self != nil) {
         inTextElement = NO;
         current_status = nil;
+        self.timelineUrl = url;
     }
     return self;
 }
 
-
 -(NSArray *)getTweets {
-	return [self parseStatusTimeline:@"<statuses><status><id>12345</id><text>world</text></status></statuses>"];
+    NSString *xmlFromTwitter = [self getTimelineFromURL:self.timelineUrl];
+	return [self parseStatusTimeline:xmlFromTwitter];
 }
 
 -(NSArray *)parseStatusTimeline:(NSString *)xml {
@@ -32,6 +35,11 @@
     tweets = [[NSMutableArray alloc] init];
     [parser parse];
     return tweets;
+}
+
+-(NSString *) getTimelineFromURL:(NSString *) url {
+    NSURL *nsUrl = [NSURL URLWithString:url];
+    return [NSString stringWithContentsOfURL:nsUrl encoding:NSUTF8StringEncoding error:nil];
 }
 
 - (void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {

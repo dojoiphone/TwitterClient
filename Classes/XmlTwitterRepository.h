@@ -14,7 +14,11 @@
     BOOL inTextElement;
 }
 
+@property(retain) NSString *timelineUrl;
+
 -(NSArray *)getTweets;
 -(NSArray *)parseStatusTimeline:(NSString *)xml;
+-(NSString *)getTimelineFromURL:(NSString *)url;
+-(id)initWithUrl:(NSString *)url;
 
 @end

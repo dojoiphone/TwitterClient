@@ -58,12 +58,9 @@
 }
 */
 
-- (void)test_request_tweets_on_load {
-	XmlTwitterRepository *twitterRepository = [[XmlTwitterRepository alloc] init];
-	twitterClientViewController.repository = twitterRepository;
-	
+- (void)test_request_tweets_on_load {	
 	[twitterClientViewController viewDidLoad];
 	
-	STAssertEqualObjects([twitterClientViewController.tweets objectAtIndex:0], @"world", nil);	
+	STAssertEqualObjects(twitterClientViewController.repository.timelineUrl, @"http://api.twitter.com/1/statuses/public_timeline.xml", nil);	
 }
 @end

@@ -14,14 +14,6 @@
 @synthesize tweets = _tweets;
 @synthesize repository = _repository;
 
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        self.repository = [[XmlTwitterRepository alloc] init];
-    }
-    return self;
-}
-
 
 /*
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
@@ -33,7 +25,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
+    self.repository = [[XmlTwitterRepository alloc] initWithUrl:@"http://api.twitter.com/1/statuses/public_timeline.xml"];
 	self.tweets = [self.repository getTweets];
     [self.tableView reloadData];
 }
