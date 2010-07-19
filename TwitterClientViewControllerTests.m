@@ -1,6 +1,6 @@
 
-#import "GTMSenTestCase.h"
 #import <UIKit/UIKit.h>
+#import <SenTestingKit/SenTestingKit.h>
 #import <OCMock/OCMock.h>
 #import "TwitterClientViewController.h"
 #import "XmlTwitterRepository.h"
@@ -8,7 +8,7 @@
 //#import "application_headers" as required
 
 
-@interface TwitterClientViewControllerTests : GTMTestCase {
+@interface TwitterClientViewControllerTests : SenTestCase {
 	TwitterClientViewController *twitterClientViewController;	
 }
 @end

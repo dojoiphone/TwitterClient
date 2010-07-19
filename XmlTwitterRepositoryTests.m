@@ -6,7 +6,7 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "GTMSenTestCase.h"
+#import <SenTestingKit/SenTestingKit.h>
 #import <UIKit/UIKit.h>
 #import <OCMock/OCMock.h>
 #import "TwitterClientViewController.h"
@@ -15,7 +15,7 @@
 //#import "application_headers" as required
 
 
-@interface XmlTwitterRepositoryTests : GTMTestCase {
+@interface XmlTwitterRepositoryTests : SenTestCase {
     
     XmlTwitterRepository *repository;
 
